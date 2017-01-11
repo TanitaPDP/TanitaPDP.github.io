@@ -167,6 +167,7 @@ p.intro {
   margin-right: 16px;
   border: 0;
   border-radius: 5px;
+  margin-top: 0;
 }
 .form-subscribe input[type="submit"] {
   width: 65px;
@@ -175,6 +176,7 @@ p.intro {
   border: 0;
   border-radius: 5px;
   outline: none;
+  margin-top: 0;
 }
 .form-subscribe input[type="text"]:focus {
   border: 1px solid #28c8c6;
