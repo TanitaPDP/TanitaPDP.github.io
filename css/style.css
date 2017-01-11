@@ -151,6 +151,8 @@ p.intro {
   width: 500px;
 }
 .header-form {
+  margin: 0;
+  padding: 0;
 
 }
 .form-subscribe input[type="text"] {
@@ -530,11 +532,3 @@ p.intro {
       font-style: normal;
       font-weight: normal;
   }
-
-
-8500d2
-824px
-60x187
-
-
-28px
