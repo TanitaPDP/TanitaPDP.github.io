@@ -367,6 +367,7 @@ padding: 0;
 }
 .macbook {
   display: block;
+  position: relative;
   margin: 0;
   padding: 0;
   max-height: 700px;
@@ -436,7 +437,35 @@ padding: 0;
   clear: both;
   padding-bottom: 100px;
 }
+.contactus {
+  display: block;
+  position: absolute;
+  top:825px;
+  right: 0;
+  width: 60px;
+  height: 187px;
+  background-color: #8500d2;
+  color: #ffffff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  }
+  .contactus b {
+    font-size: 18px;
+    position: absolute;
+    right: -30px;
+    top: 80px;
+    transform-origin: 10 10;
+    transform: rotate(-90deg);
+}
 
+.back-to-top {
+  display: block;
+  position: absolute;
+  left: 20px;
+  bottom: 120px;
+
+
+}
 
   /* font-family: "GothamProRegular"; */
   @font-face {
