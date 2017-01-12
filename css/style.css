@@ -490,16 +490,7 @@ padding: 0;
       font-style: normal;
       font-weight: normal;
   }
-  /* font-family: "GothamProBlack"; */
-  @font-face {
-      font-family: "GothamProBlack";
-      src: url("../fonts/GothamProBlack/GothamProBlack.eot");
-      src: url("../fonts/GothamProBlack/GothamProBlack.eot?#iefix")format("embedded-opentype"),
-      url("../fonts/GothamProBlack/GothamProBlack.woff") format("woff"),
-      url("../fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
-      font-style: normal;
-      font-weight: normal;
-  }
+
   /* font-family: "GothamProItalic"; */
   @font-face {
       font-family: "GothamProItalic";
@@ -520,16 +511,7 @@ padding: 0;
       font-style: normal;
       font-weight: normal;
   }
-  /* font-family: "GothamProLight"; */
-  @font-face {
-      font-family: "GothamProLight";
-      src: url("../fonts/GothamProLight/GothamProLight.eot");
-      src: url("../fonts/GothamProLight/GothamProLight.eot?#iefix")format("embedded-opentype"),
-      url("../fonts/GothamProLight/GothamProLight.woff") format("woff"),
-      url("../fonts/GothamProLight/GothamProLight.ttf") format("truetype");
-      font-style: normal;
-      font-weight: normal;
-  }
+
   /* font-family: "GothamProMediumItalic"; */
   @font-face {
       font-family: "GothamProMediumItalic";
@@ -540,16 +522,7 @@ padding: 0;
       font-style: normal;
       font-weight: normal;
   }
-  /* font-family: "GothamProLightItalic"; */
-  @font-face {
-      font-family: "GothamProLightItalic";
-      src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot");
-      src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot?#iefix")format("embedded-opentype"),
-      url("../fonts/GothamProLightItalic/GothamProLightItalic.woff") format("woff"),
-      url("../fonts/GothamProLightItalic/GothamProLightItalic.ttf") format("truetype");
-      font-style: normal;
-      font-weight: normal;
-  }
+
   /* font-family: "GothamProBoldItalic"; */
   @font-face {
       font-family: "GothamProBoldItalic";
@@ -557,16 +530,6 @@ padding: 0;
       src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot?#iefix")format("embedded-opentype"),
       url("../fonts/GothamProBoldItalic/GothamProBoldItalic.woff") format("woff"),
       url("../fonts/GothamProBoldItalic/GothamProBoldItalic.ttf") format("truetype");
-      font-style: normal;
-      font-weight: normal;
-  }
-  /* font-family: "GothamProBlackItalic"; */
-  @font-face {
-      font-family: "GothamProBlackItalic";
-      src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot");
-      src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot?#iefix")format("embedded-opentype"),
-      url("../fonts/GothamProBlackItalic/GothamProBlackItalic.woff") format("woff"),
-      url("../fonts/GothamProBlackItalic/GothamProBlackItalic.ttf") format("truetype");
       font-style: normal;
       font-weight: normal;
   }
