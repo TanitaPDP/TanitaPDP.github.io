@@ -35,7 +35,7 @@ p.intro {
   clear: both;
 }
 
-.page-header {
+header {
   position: relative;
   margin: 0;
   padding: 0;
@@ -420,14 +420,18 @@ padding: 0;
   margin-right: 40px;
   padding-bottom: 40px;
 }
-.footer-menu-right ul {
+.footer-copy-right ul {
   margin: 0;
   margin-right: 0;
   list-style: none;
   padding: 0;
 }
-.footer-menu-right li {
+.footer-copy-right li {
   line-height: 35px;
+}
+.footer-copy-right a {
+    color: #8297a7;
+    text-decoration: none;
 }
 .footer-menu a {
   line-height: 35px;
@@ -453,12 +457,14 @@ padding: 0;
   font-size: 16px;
   line-height: 28px;
   }
-  .contactus b {
+  .contactus a {
     position: absolute;
     right: -20px;
     top: 80px;
     transform-origin: 10 10;
     transform: rotate(-90deg);
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .back-to-top {
