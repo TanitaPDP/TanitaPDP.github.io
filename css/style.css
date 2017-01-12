@@ -36,6 +36,7 @@ p.intro {
 }
 
 .page-header {
+  position: relative;
   margin: 0;
   padding: 0;
   padding-top: 75px;
@@ -440,19 +441,21 @@ padding: 0;
 .contactus {
   display: block;
   position: absolute;
-  top:825px;
+  bottom: -94px;
   right: 0;
-  width: 60px;
-  height: 187px;
+  width: 58px;
+  height: 188px;
   background-color: #8500d2;
   color: #ffffff;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  font-family: "GothamProBold", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
   }
   .contactus b {
-    font-size: 18px;
     position: absolute;
-    right: -30px;
+    right: -20px;
     top: 80px;
     transform-origin: 10 10;
     transform: rotate(-90deg);
