@@ -198,7 +198,6 @@ padding: 0;
   background-repeat: no-repeat;
   background-position: 95% 50%;
 }
-
 .novelity {
   height: 440px;
   background: url("../img/novelity-bg.jpg");
@@ -206,6 +205,7 @@ padding: 0;
   padding-top: 120px;
   margin: 0;
   text-align: center;
+  position: relative;
 }
 
 .novelity-img {
@@ -213,26 +213,53 @@ padding: 0;
   position: relative;
   bottom: -7px;
 }
+
 .scroll-down {
-  position: relative;
-  left: 45%;
-  bottom: 57px;
+  display: block;
   width: 114px;
   height: 114px;
+  border-radius: 50%;
   z-index: 10;
+}
+ .first {
+  position: absolute;
+  top: -57px;
+  left: 45%;
+  background:
+  url("../img/scroll-down1.png"),
+  url("../img/novelity-bg.jpg");
+  background-position: center, bottom;
+  background-repeat: no-repeat, repeat;
+}
+.second {
+  position: absolute;
+  top: -57px;
+  left: 45%;
+  background: #28c8c6 url("../img/scroll-down2.png") no-repeat center;
+}
+.third {
+  position: absolute;
+  top: -57px;
+  left: 45%;
+  background: #ffffff url("../img/scroll-down1.png") no-repeat center;
+  
+
 }
 .features {
   text-align: center;
   padding-top: 150px;
   padding-bottom: 140px;
+  position: relative;
 }
 .features-round {
   display: block;
-  width: 280px;
+  width: 137px;
   height: 137px;
-  background-image: url("../img/features.png");
+  border-radius: 50%;
+  background-color: #8500d2;
   background-position: center;
-  background-repeat: no-repeat;
+  margin: 0 auto;
+
 }
 .features-round img {
   padding-top: 50px;
@@ -258,15 +285,13 @@ padding: 0;
 .features-item:last-child {
   margin-right: 0;
 }
-
-
-
 .portfolio {
   background-color: #f6f9fa;
   padding-top: 130px;
   padding-bottom: 98px;
   border-top: 1px solid #d8e0e8;
   text-align: center;
+  position: relative;
 }
 .portfolio p.intro {
   margin-bottom: 42px;
@@ -469,6 +494,7 @@ padding: 0;
   font-family: "GothamProBold", "Arial", sans-serif;
   font-size: 16px;
   line-height: 28px;
+  z-index: 20;
   }
   .contactus a {
     position: absolute;
