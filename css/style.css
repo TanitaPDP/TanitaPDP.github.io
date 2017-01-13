@@ -199,7 +199,7 @@ padding: 0;
   background-position: 95% 50%;
 }
 .novelity {
-  height: 440px;
+  
   background: url("../img/novelity-bg.jpg");
   background-repeat: repeat;
   padding-top: 120px;
@@ -242,8 +242,6 @@ padding: 0;
   top: -57px;
   left: 45%;
   background: #ffffff url("../img/scroll-down1.png") no-repeat center;
-  
-
 }
 .features {
   text-align: center;
