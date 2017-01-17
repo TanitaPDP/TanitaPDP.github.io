@@ -90,7 +90,7 @@ header {
 }
 .main-nav .active {
   position: relative;
-  background-color: none;
+  background-color: transparent;
 }
 .main-nav .active::after {
   content: "";
@@ -355,7 +355,8 @@ padding: 0;
   line-height: 25px;
   color: #333b42;
   text-transform: uppercase;
-  padding: 24px auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
   text-align: center;
 }
 .arrow::after {
@@ -497,7 +498,7 @@ padding: 0;
     position: absolute;
     right: -20px;
     top: 80px;
-    transform-origin: 10 10;
+    transform-origin: 50% 50%;
     transform: rotate(-90deg);
     text-decoration: none;
     color: #ffffff;
